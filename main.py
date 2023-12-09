@@ -27,17 +27,19 @@ def task1():
     result2 = 0
     total = 1
 
-    lists = []
-    for i, k in discipline.items():
-        for t, m in score.items():
-            for z, y in gpas.items():
-                if m == y and i == t:
-                    result = result + y * k
-                    result2 += m
-
-    # total = result / result2
-
-    print(total)
+    print(discipline)
+    #
+    # lists = []
+    # for i, k in discipline.items():
+    #     for t, m in score.items():
+    #         for z, y in gpas.items():
+    #             if m == y and i == t:
+    #                 result = result + y * k
+    #                 result2 += m
+    #
+    # # total = result / result2
+    #
+    # print(total)
 
 
 task1()
